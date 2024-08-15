@@ -1,0 +1,27 @@
+.header {
+  height: 100%;
+}
+
+.header .trademark {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 6px;
+  gap: 6px;
+}
+
+.header .trademark img {
+  width: 36px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.header .trademark span {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(90deg, var(--trademark-st-gradient) 0%, var(--trademark-nd-gradient) 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+}
